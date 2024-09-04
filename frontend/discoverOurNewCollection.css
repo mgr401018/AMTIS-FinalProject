@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+
+.DisOurColl {
+    position: relative;
+    width: 1440px;
+    height:716.83px;
+}
+
+#frontPageSofa{ 
+    width: 1440px;
+    height:716.83px;
+}
+
+#yellowSquare {
+    width: 643px;
+    height: 443px;
+    background-color: #FFF3E3;
+    position: absolute;
+    top: 253px;
+    left: 739px;
+    border-radius: 10px;
+
+}
+.TextInYellowSquare {
+    font-family: "Poppins", sans-serif;
+    line-height: 24px;
+    margin: 20px;
+}
+
+#NewArr {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #333333;
+
+}
+
+#Discover {
+    color: #B88E2F;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+}
+
+#LoremMainPage{
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+}
+
+#buyNow{
+    width: 222px;
+    height: 74px;
+    padding: 25px, 72px, 25px, 72px;
+    background-color: #B88E2F;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+
+}
+
+#yellowSquareTextBox {
+    width: 561px;
+    height: 344px;
+    top: 35px; /*SHOULD BE CHANGED*/
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
