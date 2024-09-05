@@ -4,6 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--Font awesom cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9ERIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWFV28IaLL3i96P9sdNyeRssA=="crossoring="anonymous">
+    <link rel="stylesheet" href="/frontend/steyl.css">
+</head>
 <body>
+    <header>
+        <div class = "container">
+            <!--Navbar-->
+            <nav class = "navbar">
+                <a href="index.html" class="navbar-brand">vintig.</a>
+                <button type="button" class="navbar-toggle">
+                    <i class="fas fa-bars">B</i>
+                </button>
+                <div class="navbar-collaps">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Galery</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contakts</a></li>
+                    </ul>
+                </div>
+                <div class="cart">
+                    <button type="button" class="cart-btn">
+                        <i class="fas-fa-soping-cart">S</i>
+                        <span id="cart-count-info">0</span>
+                    </button>
+                    <div class="cart-container">
+                        <div class="cart-list">
+                            <!--Singal item-->
+                            <div class="cart-item">
+                                <img src="#" alt="prodoct img">
+                                <div class="cart-item-info">
+                                    <h3 class="cart-item-name">Arm chiar</h3>
+                                    <span class="cart-item-category">Chiar</span>
+                                    <span class="cart-item-price">$120.00</span>
+                                </div>
+
+                                <button type="button" class="cart-item-del-btn">
+                                    <i class="fas fa-times">T</i>
+                                </button>
+                            </div>
+                            <!--Singal item ends-->
+                        </div>
+                        <div class="cart-total">
+                            <h3>total:$</h3>
+                            <span class="cart-total-value">$120.00</span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--Navbar ends-->
+        </div>
+    </header>
+    
+    <script src="/backend/ShoppingCart.js"></script>
 </body>
 </html>
