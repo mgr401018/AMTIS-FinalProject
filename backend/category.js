@@ -23,12 +23,4 @@ function filterProducts(products, criteria) {
 let filteredClothing = filterProducts(products, { category: "Clothing" });
 console.log(filteredClothing);
 
-for(i = 0 ; i = 100;i++  ){
-    if(filteredClothing[i] !== undefined){
-        console.log(filteredClothing[i])
-    }else{
-        break;
-    }
-}
-
 
