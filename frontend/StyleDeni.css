@@ -57,7 +57,7 @@ body{
     color: #333333;
 }
 
-#buyNow{
+.Button{
     width: 222px;
     height: 74px;
     padding: 25px, 72px, 25px, 72px;
@@ -82,17 +82,53 @@ body{
 
 /*CSS for the Browse The Range Pannel*/
 
+.BrowseTheRange {
+    margin-bottom: 62px;
+    height: 76.71px;
+    width: 1183px;
+}
+
+.BrowseTheRangePICS {
+    justify-content: space-between;
+    display: flex;
+}
+
+.imgBTheR {
+    border-radius: 10px;
+}
+
 #BTheR {
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
 }
 
+#BTheRLorem {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
 .BrowseTheRangePannel {
     width: 1183px;
     height: 685px;
-    display: flex;
-    justify-content: center;
     text-align: center;
+}
+
+/*50+ Beautiful room inspiration*/
+
+#BeautRoomPannel {
+    height: 670px;
+    width: 100%;
+    background-color: #efd6b8; /*change it*/
+    display: flex;
+    align-items: center;
+}
+
+.BRText {
+    width: 422px;
+    height: 151px;
+    background-color: aquamarine;
+    margin-left: 100px;
 }
 
