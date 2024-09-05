@@ -4,14 +4,20 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+.pannels{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
 .DisOurColl {
     position: relative;
     width: 100%;
 }
 
 #frontPageSofa{ 
-    width: 1440px;
-    height:716.83px;
+    width: 100%;
 }
 
 #yellowSquare {
@@ -74,6 +80,14 @@ body{
     right: 0;
 }
 
+/*CSS for the Browse The Range Pannel*/
+
+#BTheR {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
 .BrowseTheRangePannel {
     width: 1183px;
     height: 685px;
@@ -82,8 +96,3 @@ body{
     text-align: center;
 }
 
-.pannels{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
