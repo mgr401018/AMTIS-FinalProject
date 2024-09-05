@@ -1,5 +1,7 @@
 body{
+    width: 100%;
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 .DisOurColl {
@@ -71,4 +73,18 @@ body{
     margin-right: auto;
     left: 0;
     right: 0;
+}
+
+.BrowseTheRangePannel {
+    width: 1183px;
+    height: 685px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.pannels{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
