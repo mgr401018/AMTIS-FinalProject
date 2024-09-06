@@ -45,21 +45,30 @@
     margin-right: auto;
     width: 1241px;
     height: 730px;
-    background-color: aqua;
     display: grid;
     grid-template-columns: 83px 7px 423px 105px 1fr;
 }
 
 .SPDI1{
-    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
+    gap: 32px;
 }
 
-.SPDI3{
-    background-color: red;
+.SPDI1Img{
+    width: 76px;
+    height: 80px;
+    /* border-radius: 5px; */
+}
+
+.SPDI3Img{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .SPDI5{
