@@ -1,6 +1,7 @@
 {
     "grid_images":[
-        {"id": "1", "image": "./images/image 1.png", "title": "Title", "descripton": "Desk"}
+        {"id": "1", "image": "./images/image 1.png", "title": "Title", "descripton": "Desk"},
+        {"id": "2", "image": "./images/image 6.png", "title": "Title2", "descripton": "Desk2"}
     ],
 
     "carrousel":[
