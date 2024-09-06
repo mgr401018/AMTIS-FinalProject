@@ -240,8 +240,8 @@ h5.h5property {
     width: 100%;
     display: flex;
     justify-content: center;
-    position: absolute;
-    top: 3420px;
+    /* position: absolute;
+    top: 3420px; */
 }
 
 .flexTextShowYourSet {

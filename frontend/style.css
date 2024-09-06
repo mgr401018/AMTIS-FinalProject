@@ -24,6 +24,7 @@ body {
     left: 0;
     top: 0;
     padding: 25 25px;
+    position: fixed;
 }
 
 .NavbarItem {
@@ -90,10 +91,10 @@ body {
 
 .OurProductsDiv {
     background-color: #fff;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 1084px;
-    top: 1610px;
+    /* top: 1610px; */
 }
 
 .OurProductsDivUl{
@@ -194,7 +195,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     cursor: pointer;
-    position: absolute;
+    /* position: absolute; */
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -203,10 +204,14 @@ body {
 }
 
 .ShowMorePosition {
-    position: absolute;
+
+    z-index: 99;
+    /* position: absolute; */
     width: 100%;
-    top: 2625px;
+    /* top: 2625px; */
     height: 48px;
+    margin-top: -50px;
+    margin-bottom:  25px;
 }
 
 /*Carousell*/
@@ -215,10 +220,10 @@ body {
     display: grid;
     grid-template-columns: 564px 1fr;
     gap: 20px;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 670px;
-    top:2694px;
+    /* top:2694px; */
     background-color: #FCF8F3;
 }
 
