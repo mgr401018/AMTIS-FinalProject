@@ -232,3 +232,99 @@ h5.h5property {
     width: 285px;
     height: 301px;
 }
+
+/*Show your setup*/
+
+.ShowYourSetup {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 3420px;
+}
+
+.flexTextShowYourSet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hSYS {
+
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+h4.hSYS {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h2.hSYS {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.ForFlexSYS {
+    display: flex;
+    justify-content: center;
+}
+
+.ForRelativePosSYS {
+    position: relative;
+    width: 1440px;
+    height: 721px;
+}
+
+.PosAbs {
+    position: absolute;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+#Rec36 {
+    top: -30px;
+}
+
+#Rec38 {
+    top: 40px;
+    left: 93px;
+}
+
+#Rec37 {
+    top: 368px;
+}
+
+#Rec39 {
+    top: 368px;
+    left: 201px;
+}
+
+#Rec40 {
+    top: 120px;
+    left: 560px;
+}
+
+#Rec43 {
+    top: 50px;
+    left: 870px;
+}
+
+#Rec41 {
+    top: 414px;
+    left: 870px;
+}
+
+#Rec44 {
+    top: 414px;
+    left: 1064px;
+}
+
+#Rec45 {
+    top: -36px;
+    left: 1175px;
+}
