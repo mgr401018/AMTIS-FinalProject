@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Order } from './orders.schema';
+import { Product } from 'src/products/product.schema';
 
 @Injectable()
 export class OrdersService {
@@ -10,7 +11,7 @@ export class OrdersService {
   ) {}
 
   async createOrder(order: Order): Promise<Order> {
-    order.totalAmount = this.calculateTotalAmount(order.items);
+    order.totalAmount = this.calculateTotalAmount(order);
     const newOrder = new this.orderModel(order);
     return newOrder.save();
   }
@@ -24,7 +25,7 @@ export class OrdersService {
   }
 
   async updateOrder(id: string, order: Order): Promise<Order> {
-    order.totalAmount = this.calculateTotalAmount(order.items);
+    order.totalAmount = this.calculateTotalAmount(order);
     return this.orderModel.findByIdAndUpdate(id, order, { new: true }).exec();
   }
 
@@ -32,7 +33,12 @@ export class OrdersService {
     return this.orderModel.findByIdAndDelete(id).exec();
   }
 
-  private calculateTotalAmount(items: { name: string; price: number; quantity: number }[]): number {
-    return items.reduce((total, item) => total + (item.price * item.quantity), 0);
+calculateTotalAmount(order: Order): number {
+  if (!order.items) {
+    throw new Error('Items array is undefined');
   }
+
+  return order.items.reduce((total, item) => total + item.price, 0);
+  }
+
 }

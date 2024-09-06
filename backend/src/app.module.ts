@@ -8,7 +8,7 @@ import { OrdersModule } from './orders/orders.module';
 
 
 @Module({
-  imports: [MongooseModule.forRoot('mongodb://localhost:27017/jumping-parats-backend') , ProductModule, CategoriesModule, OrdersModule ,],
+  imports: [MongooseModule.forRoot('mongodb://localhost:27017/jumping-parats-backend') , ProductModule, CategoriesModule, OrdersModule , ProductReviewModule],
   controllers: [AppController ],
   providers: [AppService ],
 })

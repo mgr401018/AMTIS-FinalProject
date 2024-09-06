@@ -9,6 +9,9 @@ export class Product {
   name: string;
 
   @Prop()
+  id: string;
+
+  @Prop()
   short_description: string;
 
   @Prop()

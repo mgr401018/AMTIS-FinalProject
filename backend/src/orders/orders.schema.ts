@@ -9,7 +9,7 @@ export class Order extends Document {
   @Prop({ type: [{ name: String, price: Number, quantity: Number }] })
   items: { name: string; price: number; quantity: number }[];
 
-  @Prop({ default: 0 })
+  @Prop({ required: true })
   totalAmount: number;
 
   @Prop({ default: Date.now })
