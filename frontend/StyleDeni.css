@@ -132,3 +132,103 @@ body{
     margin-left: 100px;
 }
 
+/*Hover effect*/
+
+.OnHover:hover .ProductImage {
+    -webkit-filter:  grayscale(100%) brightness(51%);
+}
+
+.OnHover:hover .AddToCartButton {
+    display: block;
+}
+
+.OnHover:hover .h5property {
+    display: block;
+}
+
+.OnHover:hover .ShareIcon {
+    display: block;
+}
+
+.discountCircle {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.H5discount {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    ;
+}
+
+.AddToCartButton {
+    display: none;
+    position: absolute;
+    top: 170px;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: 202px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+
+}
+
+ul.unorderedList{
+    width: 285px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    list-style-type: none;
+    position: absolute;
+    top: 230px;
+}
+
+.ShareIcon {
+    display: none;
+    width: 13.1px;
+    height: 14px;
+}
+
+h5.h5property {
+    margin: 0px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.rowFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+.h5property {
+    top: 194px;
+    display: none;
+}
+
+.ForPositining {
+    position: relative;
+    width: 285px;
+    height: 301px;
+}
