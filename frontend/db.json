@@ -1,0 +1,12 @@
+{
+    "grid_images":[
+        {"id": "1", "image": "./images/image 1.png", "title": "Title", "descripton": "Desk"}
+    ],
+
+    "carrousel":[
+        {"id": "1", "image": "./images/Rectangle 24.png", "title": "Title1", "descripton": "Desk1"},
+        {"id": "2", "image": "./images/Rectangle 25.png", "title": "Title2", "descripton": "Desk2"},
+        {"id": "3", "image": "./images/Rectangle 36.png", "title": "Title3", "descripton": "Desk3"},
+        {"id": "4", "image": "./images/Rectangle 37.png", "title": "Title4", "descripton": "Desk4"}
+    ]
+}

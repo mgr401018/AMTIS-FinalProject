@@ -1,0 +1,67 @@
+.SPDivHeader{
+    width: 100vw;
+    height: 100px;
+    background-color: #F9F1E7;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 99px;
+    gap: 25px;
+}
+
+.SPDivHeaderEl{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    color: #9F9F9F;
+    font-size: 16px;
+
+}
+
+.SPDHVec{
+    margin-left: 20px;
+}
+
+.SPDivLine{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 37px;
+    border-left: 2px solid #9F9F9F;
+    padding-left: 25px;
+    padding-top: 1%;
+    padding-bottom: auto;
+    text-decoration: none;
+    size: 16px;
+    color: #000000;
+}
+
+.SPDisplay{
+    height: 820px;
+    width: 100vw;
+}
+
+.SPDisplayI{
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1241px;
+    height: 730px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 83px 7px 423px 105px 1fr;
+}
+
+.SPDI1{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.SPDI3{
+    background-color: red;
+}
+
+.SPDI5{
+    background-color: red;
+}
