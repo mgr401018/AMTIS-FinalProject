@@ -97,6 +97,17 @@ body {
     /* top: 1610px; */
 }
 
+.ShopDiv {
+    display: flex;
+    background-color: #fff;
+    /* position: absolute; */
+    width: 100%;
+    height: 2000px;
+    /* top: 1610px; */
+    flex-direction: column;
+    gap: 30px;
+}
+
 .OurProductsDivUl{
     padding-left: 4%;
     padding-right: 5%;
@@ -121,6 +132,19 @@ body {
     flex-flow: column wrap;
     background-color: #ffffff;
     height: 924px;
+   
+}
+
+.OurProductsDivDiv22 {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    /*align-items: space-between;*/
+    flex-flow: column wrap;
+    background-color: #ffffff;
+    height: 1848px;
    
 }
 
