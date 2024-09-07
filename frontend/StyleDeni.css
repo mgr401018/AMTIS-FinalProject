@@ -414,6 +414,89 @@ h2.hSYS {
 #whiteSqu {
     height: 55px;
     width: 55px;
+    background-color: white;
+    color: #9F9F9F;    ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; ;
+}
+
+#whiteRect {
+    height: 55px;
+    width: 188px;
+    background-color: white;
     color: #9F9F9F;
-    text-align: center;    ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OrangeRect {
+    background-color:#FAF3EA;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ORflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.ORIcon {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.NavForDesc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #9F9F9F;
+    cursor: pointer;
+    margin-bottom: 37px;
+    margin-top: 37px;
+}
+
+.Hoverdesc:hover {
+    color: black;
+}
+
+.descText {
+    color: #D9D9D9;
+    text-align: justify;
+    width: 1096px;
+}
+
+.descTxtFlex {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FlexDescriptionPicConteiner {
+    margin-top: 36px;
+    width: 100%;
+    height: 605px;
+    display: flex;
+    justify-content: center;
+}
+
+.FlexDescriptionPic {
+    display: flex;
+    flex-direction: row;
+    width: 1026px;
+    justify-content: center;
+    gap:29px;
+}
+
+.FlexDescriptionPic img {
+    width: 605px;
+    height: 348px;
 }
