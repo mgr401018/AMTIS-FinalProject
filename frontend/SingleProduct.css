@@ -14,7 +14,6 @@
     text-decoration: none;
     color: #9F9F9F;
     font-size: 16px;
-
 }
 
 .SPDHVec{
@@ -35,7 +34,7 @@
 }
 
 .SPDisplay{
-    height: 820px;
+    height: 720px;
     width: 100vw;
 }
 
@@ -44,7 +43,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 1241px;
-    height: 730px;
+    height: 630px;
     display: grid;
     grid-template-columns: 83px 7px 423px 105px 1fr;
 }
@@ -198,4 +197,46 @@
 #ATCMinus, #ATCCNT, #ATCPlus{
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.ATCDiv2{
+    display: flex;
+    justify-content: center;
+    width: 215px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.ATCDiv2p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.ATCDiv3{
+    display: flex;
+    justify-content: center;
+    width: 215px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.ATCDiv3p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.LiNe{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #9f9f9f;
+}
+
+.UnderLine{
+    color: #9f9f9f;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
