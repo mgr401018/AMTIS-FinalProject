@@ -1,6 +1,6 @@
 import { IsInt, IsString, Min, Max, Length, IsOptional } from 'class-validator';
 
-export class CreateReviewDto {
+export class CreateReview {
   @IsInt()
   @Min(1)
   @Max(5)
