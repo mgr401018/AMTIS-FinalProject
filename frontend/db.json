@@ -1,7 +1,16 @@
 {
     "grid_images":[
-        {"id": "1", "image": "./images/image 1.png", "title": "Title", "descripton": "Desk"},
-        {"id": "2", "image": "./images/image 6.png", "title": "Title2", "descripton": "Desk2"}
+        {"id": "1", "image": "./images/our_products/image 1.png", "title": "Title", "descripton": "Desk", "price": "Rp 1.500.000", "discount": "1", "oldprice": "Rp 3.500.000"},
+        {"id": "2", "image": "./images/our_products/image 2.png", "title": "Title2", "descripton": "Desk2", "price": "Rp 2.500.000", "discount": "1", "oldprice": "Rp 3.500.000"},
+        {"id": "3", "image": "./images/our_products/image 3.png", "title": "Title3", "descripton": "Desk3", "price": "Rp 3.500.000", "discount": "1", "oldprice": "Rp 5.500.000"},
+        {"id": "4", "image": "./images/our_products/image 4.png", "title": "Title4", "descripton": "Desk4", "price": "Rp 4.500.000", "discount": "1", "oldprice": "Rp 5.500.000"}
+    ],
+
+    "grid_images_2":[
+        {"id": "1", "image": "./images/our_products/image 6.png", "title": "Title5", "descripton": "Desk5", "price": "Rp 1.500.000", "discount": "1", "oldprice": "Rp 3.500.000"},
+        {"id": "2", "image": "./images/our_products/image 7.png", "title": "Title6", "descripton": "Desk6", "price": "Rp 2.500.000", "discount": "1", "oldprice": "Rp 3.500.000"},
+        {"id": "3", "image": "./images/our_products/image 8.png", "title": "Title7", "descripton": "Desk7", "price": "Rp 3.500.000", "discount": "1", "oldprice": "Rp 5.500.000"},
+        {"id": "4", "image": "./images/our_products/image 9.png", "title": "Title8", "descripton": "Desk8", "price": "Rp 4.500.000", "discount": "1", "oldprice": "Rp 5.500.000"}
     ],
 
     "carrousel":[

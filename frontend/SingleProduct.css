@@ -72,5 +72,130 @@
 }
 
 .SPDI5{
-    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.SPDI5H{
+    font-size: 42px;
+    margin-bottom: 2px;
+}
+
+.SPDI5P{
+    font-size: 24px;
+    color: #9F9F9F;
+    margin-bottom: 15px;
+}
+
+.SPReviews{
+    display: grid;
+    grid-template-columns: 135px 1fr;
+    height: auto;
+    width: 120px;
+    /* padding-top: auto;
+    padding-bottom: auto; */
+}
+
+/* .Reviews{
+    
+} */
+
+.RVText{
+    width: 200px;
+    padding-left: 25px;
+    height: 25px;
+    border-left: 2px solid #9F9F9F;
+    color: #9F9F9F;
+}
+
+.long_description{
+    width: 100%;
+}
+
+.SizeSelDiv{
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.SizeSelDivTitle{
+    color: #9F9F9F;
+}
+
+.SizeSelDivSel{
+    display: flex;
+    gap: 16px;
+}
+
+.SSDSItem{
+    height: 32px;
+    width: 40px;
+    text-align: center;
+    padding-top:8px;
+    background-color: #F9F1E7;
+    border-radius: 5px;
+    color: #000;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.SSDSItem:hover{
+    background-color: #B88E2F;
+    color: #fff;
+}
+
+.CSDSItem1{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #816DFA;
+}
+
+.CSDSItem1:hover{
+    background-color: #9e8dfd;
+}
+
+.CSDSItem2{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #000;
+}
+.CSDSItem2:hover{
+    background-color: #4e4c4c;
+}
+
+.CSDSItem3{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #B88E2F;
+}
+
+.CSDSItem3:hover{
+    background-color: #c7a659;
+}
+
+.add-to-cart{
+    margin-top: 35px;
+    display: flex;
+    gap: 18px;
+    height: 64px;
+}
+
+.ATCDiv1{
+    width: 123px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#ATCMinus, #ATCCNT, #ATCPlus{
+    margin-top: auto;
+    margin-bottom: auto;
 }
