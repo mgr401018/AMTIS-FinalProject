@@ -1,0 +1,97 @@
+.FooterDiv{
+    top: 4330px;
+    display: grid;
+    grid-template-rows: 2px 48px 408px 2px 97px;
+    height: 505px;
+    background-color: #ffffff;
+    /* bottom: 0%; */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.FooterDiv1{
+    background-color: #ffffff;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 403px 1fr;
+}
+
+.FooterDiv1Div1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.FooterDiv1Div1 p{
+    color: #9F9F9F;
+}
+
+.FooterDiv1Div2{
+    padding-top: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FD1D2UL{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: none;
+    gap: 50px;
+}
+
+.FTitle{
+    color:#9f9f9f;
+    size: 16px;
+}
+
+.FLink{
+    size: 16px;
+    text-decoration: none;
+    color:black;
+}
+
+.NLInputL{
+    display: flex;
+    height: 21px;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.NLInput{
+    color: #9F9F9F;
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid #9f9f9f;
+    font-size: 14px;
+}
+
+.NLButton{
+    border: none;
+    background: inherit;
+    width: 75px;
+    height: 21px;;
+    font-size: 14px;
+    color:#9F9F9F;
+}
+
+.NLButton:hover{
+    color:#000000;
+}
+
+.FooterDiv2{
+    background-color: #d6d6d6;
+}
+
+
+.FooterDiv3{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.FooterDiv3P{
+    font-size: 16px;
+}

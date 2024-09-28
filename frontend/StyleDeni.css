@@ -1,0 +1,502 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.pannels{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.DisOurColl {
+    position: relative;
+    width: 100%;
+}
+
+#frontPageSofa{ 
+    width: 100%;
+}
+
+#yellowSquare {
+    width: 643px;
+    height: 443px;
+    background-color: #FFF3E3;
+    position: absolute;
+    top: 253px;
+    left: 739px;
+    border-radius: 10px;
+
+}
+.TextInYellowSquare {
+    font-family: "Poppins", sans-serif;
+    line-height: 24px;
+    margin: 20px;
+}
+
+#NewArr {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #333333;
+
+}
+
+#Discover {
+    color: #B88E2F;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+}
+
+#LoremMainPage{
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+}
+
+.Button{
+    width: 222px;
+    height: 74px;
+    padding: 25px, 72px, 25px, 72px;
+    background-color: #B88E2F;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+
+}
+
+#yellowSquareTextBox {
+    width: 561px;
+    height: 344px;
+    top: 35px; /*SHOULD BE CHANGED*/
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+/*CSS for the Browse The Range Pannel*/
+
+.BrowseTheRange {
+    margin-bottom: 62px;
+    height: 76.71px;
+    width: 1183px;
+}
+
+.BrowseTheRangePICS {
+    justify-content: space-between;
+    display: flex;
+}
+
+.imgBTheR {
+    border-radius: 10px;
+}
+
+#BTheR {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+#BTheRLorem {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.BrowseTheRangePannel {
+    width: 1183px;
+    height: 685px;
+    text-align: center;
+}
+
+/*50+ Beautiful room inspiration*/
+
+#BeautRoomPannel {
+    height: 670px;
+    width: 100%;
+    background-color: #efd6b8; /*change it*/
+    display: flex;
+    align-items: center;
+}
+
+.BRText {
+    width: 422px;
+    height: 151px;
+    background-color: aquamarine;
+    margin-left: 100px;
+}
+
+/*Hover effect*/
+
+.OnHover:hover .ProductImage {
+    -webkit-filter:  grayscale(100%) brightness(51%);
+}
+
+.OnHover:hover .AddToCartButton {
+    display: block;
+}
+
+.OnHover:hover .h5property {
+    display: block;
+}
+
+.OnHover:hover .ShareIcon {
+    display: block;
+}
+
+.discountCircle {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.H5discount {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    ;
+}
+
+.AddToCartButton {
+    display: none;
+    position: absolute;
+    top: 170px;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: 202px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+
+}
+
+ul.unorderedList{
+    width: 285px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    list-style-type: none;
+    position: absolute;
+    top: 230px;
+}
+
+.ShareIcon {
+    display: none;
+    width: 13.1px;
+    height: 14px;
+}
+
+h5.h5property {
+    margin: 0px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.rowFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+.h5property {
+    top: 194px;
+    display: none;
+}
+
+.ForPositining {
+    position: relative;
+    width: 285px;
+    height: 301px;
+}
+
+/*Show your setup*/
+
+.ShowYourSetup {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* position: absolute;
+    top: 3420px; */
+}
+
+.flexTextShowYourSet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hSYS {
+
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+h4.hSYS {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h2.hSYS {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.ForFlexSYS {
+    display: flex;
+    justify-content: center;
+}
+
+.ForRelativePosSYS {
+    position: relative;
+    width: 1440px;
+    height: 721px;
+}
+
+.PosAbs {
+    position: absolute;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+#Rec36 {
+    top: -30px;
+}
+
+#Rec38 {
+    top: 40px;
+    left: 93px;
+}
+
+#Rec37 {
+    top: 368px;
+}
+
+#Rec39 {
+    top: 368px;
+    left: 201px;
+}
+
+#Rec40 {
+    top: 120px;
+    left: 560px;
+}
+
+#Rec43 {
+    top: 50px;
+    left: 870px;
+}
+
+#Rec41 {
+    top: 414px;
+    left: 870px;
+}
+
+#Rec44 {
+    top: 414px;
+    left: 1064px;
+}
+
+#Rec45 {
+    top: -36px;
+    left: 1175px;
+}
+
+/*Shop*/
+/*Shop Banner*/
+
+.ShopBanner {
+    width: 100%;
+    height: 316px;
+    background-image: url("images/Rectangle 1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ShopText {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+#HomeShopText a{
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+#HomeShopText {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.YellowRect {
+    height: 100px;
+    width: 100%;
+    background-color: #F9F1E7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.LeftYR {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    gap: 24px;
+}
+
+.LeftYR h5 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.compareCol {
+    background-color: black; 
+    mask: url(images/compare-svgrepo-com\ 1.svg) no-repeat center / contain;
+    -webkit-mask: url(images/compare-svgrepo-com\ 1.svg) no-repeat center / contain;
+  }
+
+  .gridCol {
+    background-color: black; 
+    mask: url(images/ci_grid-big-round.svg) no-repeat center / contain;
+    -webkit-mask: url(images/ci_grid-big-round.svg) no-repeat center / contain;
+  }
+
+  .VectorCol {
+    background-color: black; 
+    mask: url(images/Vector.svg) no-repeat center / contain;
+    -webkit-mask: url(images/Vector.svg) no-repeat center / contain;
+  }
+
+.BoxShowing {
+    height: 30px;
+    width: 237px;
+}
+
+.icon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+  }
+
+#whiteSqu {
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    color: #9F9F9F;    ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; ;
+}
+
+#whiteRect {
+    height: 55px;
+    width: 188px;
+    background-color: white;
+    color: #9F9F9F;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OrangeRect {
+    background-color:#FAF3EA;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ORflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.ORIcon {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.NavForDesc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #9F9F9F;
+    cursor: pointer;
+    margin-bottom: 37px;
+    margin-top: 37px;
+}
+
+.Hoverdesc:hover {
+    color: black;
+}
+
+.descText {
+    color: #D9D9D9;
+    text-align: justify;
+    width: 1096px;
+}
+
+.descTxtFlex {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FlexDescriptionPicConteiner {
+    margin-top: 36px;
+    width: 100%;
+    height: 405px;
+    display: flex;
+    justify-content: center;
+}
+
+.FlexDescriptionPic {
+    display: flex;
+    flex-direction: row;
+    width: 1026px;
+    justify-content: center;
+    gap:29px;
+}
+
+.FlexDescriptionPic img {
+    width: 605px;
+    height: 348px;
+}

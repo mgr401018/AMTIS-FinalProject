@@ -1,63 +1,542 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!--Font awesom cdn-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9ERIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWFV28IaLL3i96P9sdNyeRssA=="crossoring="anonymous">
-    <link rel="stylesheet" href="/frontend/steyl.css">
-</head>
-<body>
-    <header>
-        <div class = "container">
-            <!--Navbar-->
-            <nav class = "navbar">
-                <a href="index.html" class="navbar-brand">vintig.</a>
-                <button type="button" class="navbar-toggle">
-                    <i class="fas fa-bars">B</i>
-                </button>
-                <div class="navbar-collaps">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Galery</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contakts</a></li>
-                    </ul>
-                </div>
-                <div class="cart">
-                    <button type="button" class="cart-btn">
-                        <i class="fas-fa-soping-cart">S</i>
-                        <span id="cart-count-info">0</span>
-                    </button>
-                    <div class="cart-container">
-                        <div class="cart-list">
-                            <!--Singal item-->
-                            <div class="cart-item">
-                                <img src="#" alt="prodoct img">
-                                <div class="cart-item-info">
-                                    <h3 class="cart-item-name">Arm chiar</h3>
-                                    <span class="cart-item-category">Chiar</span>
-                                    <span class="cart-item-price">$120.00</span>
-                                </div>
+<html>
 
-                                <button type="button" class="cart-item-del-btn">
-                                    <i class="fas fa-times">T</i>
-                                </button>
-                            </div>
-                            <!--Singal item ends-->
-                        </div>
-                        <div class="cart-total">
-                            <h3>total:$</h3>
-                            <span class="cart-total-value">$120.00</span>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <!--Navbar ends-->
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <style>
+        #LogoText {
+            font-family: 'Montserrat';
+            font-size: 34px;
+            font-weight: 900;
+        }
+
+        .InnerListItem {
+            font-family: 'Montserrat';
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="StyleDeni.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- <scrip src="backendload.js"></scrip> -->
+
+</head>
+
+<body>
+    <ul class="NavbarList">
+        <li class="NavbarItem">
+            <a href="#">
+                <ul id="LogoText">
+                    <li id="Logo">
+                        <img src="./assets/Meubel House_Logos-05.svg"></img>
+                    </li>
+                    <li>Furniro</li>
+                </ul>
+            </a>
+        </li>
+        <li class="NavbarItem">
+            <ul class="InnerList">
+                <li class="InnerListItem">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="InnerListItem">
+                    <a href="shop.html">Shop</a>
+                </li>
+                <li class="InnerListItem">
+                    <a href="SingleProduct.html">About</a>
+                </li>
+                <li class="InnerListItem">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </li>
+        <li class="NavbarItem">
+            <ul class="InnerList">
+                <li class="SmallList">
+                    <a href="#"><img src="./assets/mdi_account-alert-outline.svg"></img></a>
+                </li>
+                <li class="SmallList">
+                    <a href="#"><img src="./assets/akar-icons_search.svg"></img></a>
+                <li class="SmallList">
+                    <a href="#"><img src="./assets/akar-icons_heart.svg"></img></a>
+                </li>
+                <li class="SmallList">
+                    <a href="#"><img src="./assets/ant-design_shopping-cart-outlined.svg"></img></a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="DisOurColl, pannels">
+        <img id="frontPageSofa" src="images/scandinavian-interior-mockup-wall-decal-background 1.png">
+        <div id="yellowSquare">
+            <div id="yellowSquareTextBox">
+                <h5 class="TextInYellowSquare" id="NewArr">New Arrival</h5>
+                <h1 class="TextInYellowSquare" id="Discover">Discover Our New Collection</h1>
+                <h5 class="TextInYellowSquare" id="LoremMainPage">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Ut elit tellus, luctus nec ullamcorper mattis.</h5>
+                <button class="TextInYellowSquare, Button">BUY NOW</button>
+            </div>
         </div>
-    </header>
-    
-    <script src="/backend/ShoppingCart.js"></script>
+    </div>
+    <!--Browse the range pannel-->
+    <div class="pannels">
+        <div class="BrowseTheRangePannel">
+            <div class="BrowseTheRange">
+                <h2 id="BTheR">Browse The Range</h2>
+                <h5 id="BTheRLorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            </div>
+            <div class="BrowseTheRangePICS">
+                <div>
+                    <img class="imgBTheR" src="images/image 106.png">
+                    <h4>Dining</h4>
+                </div>
+                <div>
+                    <img class="imgBTheR" src="images/image 100.png">
+                    <h4>Living</h4>
+                </div>
+                <div>
+                    <img class="imgBTheR" src="images/image 101.png">
+                    <h4>Bedroom</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Products-->
+    <div class="OurProductsDiv , pannels">
+        <ul class="OurProductsDivUl">
+            <li>
+                <h2 class="OurProductsDivH2">Our Products</h2>
+            </li>
+            <li>
+                <ul class="OurProductsDivDiv">
+                    <ul class="OPItemList" id="our-product-section">
+                        <li class="OPItemListItem">
+                            <div class="ForPositining">
+                                <div class="OnHover">
+
+                                    <img src="images/image 6.png" alt="Product Image" class="ProductImage">
+                                    <div class="discountCircle">
+                                        <h5 class="H5discount">-30%</h5>
+                                    </div>
+                                    <div class="changeDispPr">
+                                        <button class="AddToCartButton">Add to cart</button>
+                                        <div>
+                                            <ul class="unorderedList">
+                                                <li class="rowFlex">
+                                                    <img src="images/gridicons_share.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Share</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/compare-svgrepo-com 1.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Compare</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/Heart.svg" alt="Share Icon" class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Like</h5>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 id="ILH2" class="OPItemListItemH2"></h2>
+                                <p id="ILD" class="OPItemListItemP">Stylish cafe chair</p>
+                                <ul class="OPItemListItemUL">
+                                    <li class="OPItemListItemULLiH">
+                                        <h3 id="ILP">Rp 2.500.000</h2>
+                                    </li>
+                                    <li class="OPItemListItemULLiP">
+                                        <p id="ILPO">Rp 3.500.000</p>
+                                    </li>
+                                </ul>
+                        </li>
+                        <li class="OPItemListItem">
+                            <div class="ForPositining">
+                                <div class="OnHover">
+
+                                    <img src="images/image 6.png" alt="Product Image" class="ProductImage">
+                                    <div class="discountCircle">
+                                        <h5 class="H5discount">-30%</h5>
+                                    </div>
+                                    <div class="changeDispPr">
+                                        <button class="AddToCartButton">Add to cart</button>
+                                        <div>
+                                            <ul class="unorderedList">
+                                                <li class="rowFlex">
+                                                    <img src="images/gridicons_share.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Share</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/compare-svgrepo-com 1.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Compare</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/Heart.svg" alt="Share Icon" class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Like</h5>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="OPItemListItemH2">Syltherine</h2>
+                                <p class="OPItemListItemP">Stylish cafe chair</p>
+                                <ul class="OPItemListItemUL">
+                                    <li class="OPItemListItemULLiH">
+                                        <h3>Rp 2.500.000</h2>
+                                    </li>
+                                    <li class="OPItemListItemULLiP">
+                                        <p>Rp 3.500.000</p>
+                                    </li>
+                                </ul>
+                        </li>
+                        <li class="OPItemListItem">
+                            <div class="ForPositining">
+                                <div class="OnHover">
+
+                                    <img src="images/image 6.png" alt="Product Image" class="ProductImage">
+                                    <div class="discountCircle">
+                                        <h5 class="H5discount">-30%</h5>
+                                    </div>
+                                    <div class="changeDispPr">
+                                        <button class="AddToCartButton">Add to cart</button>
+                                        <div>
+                                            <ul class="unorderedList">
+                                                <li class="rowFlex">
+                                                    <img src="images/gridicons_share.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Share</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/compare-svgrepo-com 1.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Compare</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/Heart.svg" alt="Share Icon" class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Like</h5>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="OPItemListItemH2">Syltherine</h2>
+                                <p class="OPItemListItemP">Stylish cafe chair</p>
+                                <ul class="OPItemListItemUL">
+                                    <li class="OPItemListItemULLiH">
+                                        <h3>Rp 2.500.000</h2>
+                                    </li>
+                                    <li class="OPItemListItemULLiP">
+                                        <p>Rp 3.500.000</p>
+                                    </li>
+                                </ul>
+                        </li>
+                        <li class="OPItemListItem">
+                            <div class="ForPositining">
+                                <div class="OnHover">
+
+                                    <img src="images/image 6.png" alt="Product Image" class="ProductImage">
+                                    <div class="discountCircle">
+                                        <h5 class="H5discount">-30%</h5>
+                                    </div>
+                                    <div class="changeDispPr">
+                                        <button class="AddToCartButton">Add to cart</button>
+                                        <div>
+                                            <ul class="unorderedList">
+                                                <li class="rowFlex">
+                                                    <img src="images/gridicons_share.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Share</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/compare-svgrepo-com 1.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Compare</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/Heart.svg" alt="Share Icon" class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Like</h5>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="OPItemListItemH2">Syltherine</h2>
+                                <p class="OPItemListItemP">Stylish cafe chair</p>
+                                <ul class="OPItemListItemUL">
+                                    <li class="OPItemListItemULLiH">
+                                        <h3>Rp 2.500.000</h2>
+                                    </li>
+                                    <li class="OPItemListItemULLiP">
+                                        <p>Rp 3.500.000</p>
+                                    </li>
+                                </ul>
+                        </li>
+                    </ul>
+                    <ul class="OPItemList" id="our-product-section-2">
+                        <li class="OPItemListItem">
+                            <div class="ForPositining">
+                                <div class="OnHover">
+
+                                    <img src="images/image 6.png" alt="Product Image" class="ProductImage">
+                                    <div class="discountCircle">
+                                        <h5 class="H5discount">-30%</h5>
+                                    </div>
+                                    <div class="changeDispPr">
+                                        <button class="AddToCartButton">Add to cart</button>
+                                        <div>
+                                            <ul class="unorderedList">
+                                                <li class="rowFlex">
+                                                    <img src="images/gridicons_share.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Share</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/compare-svgrepo-com 1.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Compare</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/Heart.svg" alt="Share Icon" class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Like</h5>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="OPItemListItemH2">Syltherine</h2>
+                                <p class="OPItemListItemP">Stylish cafe chair</p>
+                                <ul class="OPItemListItemUL">
+                                    <li class="OPItemListItemULLiH">
+                                        <h3>Rp 2.500.000</h2>
+                                    </li>
+                                    <li class="OPItemListItemULLiP">
+                                        <p>Rp 3.500.000</p>
+                                    </li>
+                                </ul>
+                        </li>
+                        <li class="OPItemListItem">
+                            <div class="ForPositining">
+                                <div class="OnHover">
+
+                                    <img src="images/image 6.png" alt="Product Image" class="ProductImage">
+                                    <div class="discountCircle">
+                                        <h5 class="H5discount">-30%</h5>
+                                    </div>
+                                    <div class="changeDispPr">
+                                        <button class="AddToCartButton">Add to cart</button>
+                                        <div>
+                                            <ul class="unorderedList">
+                                                <li class="rowFlex">
+                                                    <img src="images/gridicons_share.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Share</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/compare-svgrepo-com 1.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Compare</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/Heart.svg" alt="Share Icon" class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Like</h5>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="OPItemListItemH2">Syltherine</h2>
+                                <p class="OPItemListItemP">Stylish cafe chair</p>
+                                <ul class="OPItemListItemUL">
+                                    <li class="OPItemListItemULLiH">
+                                        <h3>Rp 2.500.000</h2>
+                                    </li>
+                                    <li class="OPItemListItemULLiP">
+                                        <p>Rp 3.500.000</p>
+                                    </li>
+                                </ul>
+                        </li>
+                        <li class="OPItemListItem">
+                            <div class="ForPositining">
+                                <div class="OnHover">
+
+                                    <img src="images/image 6.png" alt="Product Image" class="ProductImage">
+                                    <div class="discountCircle">
+                                        <h5 class="H5discount">-30%</h5>
+                                    </div>
+                                    <div class="changeDispPr">
+                                        <button class="AddToCartButton">Add to cart</button>
+                                        <div>
+                                            <ul class="unorderedList">
+                                                <li class="rowFlex">
+                                                    <img src="images/gridicons_share.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Share</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/compare-svgrepo-com 1.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Compare</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/Heart.svg" alt="Share Icon" class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Like</h5>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="OPItemListItemH2">Syltherine</h2>
+                                <p class="OPItemListItemP">Stylish cafe chair</p>
+                                <ul class="OPItemListItemUL">
+                                    <li class="OPItemListItemULLiH">
+                                        <h3>Rp 2.500.000</h2>
+                                    </li>
+                                    <li class="OPItemListItemULLiP">
+                                        <p>Rp 3.500.000</p>
+                                    </li>
+                                </ul>
+                        </li>
+                        <li class="OPItemListItem">
+                            <div class="ForPositining">
+                                <div class="OnHover">
+
+                                    <img src="images/image 6.png" alt="Product Image" class="ProductImage">
+                                    <div class="discountCircle">
+                                        <h5 class="H5discount">-30%</h5>
+                                    </div>
+                                    <div class="changeDispPr">
+                                        <button class="AddToCartButton">Add to cart</button>
+                                        <div>
+                                            <ul class="unorderedList">
+                                                <li class="rowFlex">
+                                                    <img src="images/gridicons_share.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Share</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/compare-svgrepo-com 1.svg" alt="Share Icon"
+                                                        class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Compare</h5>
+                                                </li>
+                                                <li class="rowFlex">
+                                                    <img src="images/Heart.svg" alt="Share Icon" class="ShareIcon">
+                                                    <h5 class="changeDispPr h5property">Like</h5>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="OPItemListItemH2">Syltherine</h2>
+                                <p class="OPItemListItemP">Stylish cafe chair</p>
+                                <ul class="OPItemListItemUL">
+                                    <li class="OPItemListItemULLiH">
+                                        <h3>Rp 2.500.000</h2>
+                                    </li>
+                                    <li class="OPItemListItemULLiP">
+                                        <p>Rp 3.500.000</p>
+                                    </li>
+                                </ul>
+                        </li>
+                    </ul>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+    <div class="ShowMorePosition">
+        <button class="ShowMore">Show More</button>
+    </div>
+    <!--Carousell-->
+
+    <div class="CarDiv">
+        <div class="CarDivCol1">
+            <h2>50+ Beautiful rooms </br> inspiration</h2>
+            <p class="CarDivCol1P">Our designer already made a lot of </br> beautiful prototipe of rooms that inspire </p>
+            <a class="CarDivCol1Button" href="#">Expolre More</a>
+        </div>
+        
+        <div class="CarDivCol2">
+            <!-- <div class="controls"> -->
+                <div class="dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <div class="slider-container" id="slider-carrousel">
+                </div>
+            <!-- </div> -->
+        </div>
+    </div>
+
+    <!--Share your Setup #FurniroFurniture-->
+    <div class="ShowYourSetup">
+        <div class="flexTextShowYourSet">
+            <h4 class="hSYS">Share your setup with</h4>
+            <h2 class="hSYS">#FuniroFurniture</h2>
+        </div>
+        <div class="ForFlexSYS">
+            <div class="ForRelativePosSYS">
+                <img class="PosAbs" id="Rec36" src="images/Rectangle 36.png">
+                <img class="PosAbs" id="Rec38" src="images/Rectangle 38.png">
+                <img class="PosAbs" id="Rec37" src="images/Rectangle 37.png">
+                <img class="PosAbs" id="Rec39" src="images/Rectangle 39.png">
+                <img class="PosAbs" id="Rec40" src="images/Rectangle 40.png">
+                <img class="PosAbs" id="Rec43" src="images/Rectangle 43.png">
+                <img class="PosAbs" id="Rec41" src="images/Rectangle 41.png">
+                <img class="PosAbs" id="Rec44" src="images/Rectangle 44.png">
+                <img class="PosAbs" id="Rec45" src="images/Rectangle 45.png">
+
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="FooterDiv">
+        <div class="FooterDiv2"></div>
+        <div></div>
+        <div class="FooterDiv1">
+            <div class="FooterDiv1Div1">
+                <H1>Furniro.</H1>
+                <p>400 University Drive Suite 200 </br> Coral Gables,</br>FL 33134 USA</p>
+            </div>
+            <ul class="FooterDiv1Div2">
+                <ul class="FD1D2UL">
+                    <p class="FTitle">Links</p>
+                    <a class="FLink" href="#">Home</a>
+                    <a class="FLink" href="#">Shop</a>
+                    <a class="FLink" href="#">About</a>
+                    <a class="FLink" href="#">Contact</a>
+                </ul>
+                <ul class="FD1D2UL">
+                    <p class="FTitle">Help</p>
+                    <a class="FLink" href="#">Payment Options</a>
+                    <a class="FLink" href="#">Returns</a>
+                    <a class="FLink" href="#">Privacy Policies</a>
+                </ul>
+                <ul class="FD1D2UL">
+                    <p class="FTitle">Newsletter</p>
+                    <ul class="NLInputL">
+                        <input class="NLInput" placeholder="Enter Your Email Address">
+                        <button class="NLButton">SUBSCRIBE</button>
+                    </ul>
+                    <ul>
+                    </ul>
+        </div>
+        <div class="FooterDiv2"></div>
+        <div class="FooterDiv3">
+            <p class="FooterDiv3P">2023 furino. All rights reverved</p>
+        </div>
+    </div>
+
+    <script src="carousell.js"></script>
+    <script src="backendload.js"></script>
 </body>
 </html>

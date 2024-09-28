@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="StyleDeni.css">
+</head>
+
+<body>
+    <div class="ForPositining"  onmouseover="toggleDisplay(true)"
+    onmouseout="toggleDisplay(false)">
+    <div class="OnHover">
+        
+            <img src="images/image 6.png" alt="Product Image" class="ProductImage">
+            <div class="discountCircle">
+                <h5 class="H5discount">-30%</h5>
+            </div>
+            <div class="changeDispPr">
+        <button class="AddToCartButton">Add to cart</button>
+        <div>
+            <ul class="unorderedList">
+                <li class="rowFlex">
+                    <img src="images/gridicons_share.svg" alt="Share Icon" class="ShareIcon">
+                    <h5 class="changeDispPr h5property">Share</h5>
+                </li>
+                <li class="rowFlex">
+                    <img src="images/compare-svgrepo-com 1.svg" alt="Share Icon" class="ShareIcon">
+                    <h5 class="changeDispPr h5property">Compare</h5>
+                </li>
+                <li class="rowFlex">
+                    <img src="images/Heart.svg" alt="Share Icon" class="ShareIcon">
+                    <h5 class="changeDispPr h5property">Like</h5>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <script>
+        function toggleDisplay(isVisible) {
+            // Get all elements with the class 'changeDispPr'
+            let elements = document.getElementsByClassName("changeDispPr");
+            // Change display property based on whether the mouse is over the image or not
+            for (let i = 0; i < elements.length; i++) {
+                elements[i].style.display = isVisible ? "block" : "none";
+            }
+        }
+    </script> 
+</body>
+
+</html>
